@@ -7,10 +7,13 @@ echo "$a $b $c";
 if [ $a -gt $b ]
 then
        echo "$a is the largest value";
+       echo "$b is the smallest value";
 elif [ $b -gt $c ]
 then
        echo "$b is the largest value";
+       echo "$c is the smallest value";
 else [ $c -gt $a ]
        echo "$c is the largest value";
+       echo "$a is the smallest value";
 fi
 
